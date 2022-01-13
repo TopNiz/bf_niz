@@ -1,0 +1,2 @@
+-D_XOPEN_SOURCE_EXTENDED',
+-I/usr/local/opt/ncurses/include',

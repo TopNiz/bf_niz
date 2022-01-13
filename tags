@@ -1,0 +1,25 @@
+BF_WINDOW	main.c	/^} BF_WINDOW;$/
+Memory	main.c	/^} Memory;$/
+Mmain	main.c	/^int main(int argc, char *argv[]) {$/
+Mtags	tags	/^Mbfcode.c~	bfcode.c~	\/^int main() {$\/$/
+bf_refresh	main.c	/^void bf_refresh(Memory * mem) {$/
+create_bfwin	main.c	/^BF_WINDOW * create_bfwin() {$/
+create_newwin	main.c	/^WINDOW * create_newwin(int height, int width, int /
+decr	main.c	/^void decr(Memory * mem) {$/
+destroy_bfwin	main.c	/^void destroy_bfwin(Memory *mem) {$/
+destroy_win	main.c	/^void destroy_win(WINDOW * local_win) {$/
+incr	main.c	/^void incr(Memory * mem) {$/
+init	main.c	/^Memory* init(size_t mem_size, size_t code_size) {$/
+logg	main.c	/^void logg(char* c, Memory * mem) {$/
+next	main.c	/^void next(Memory * mem) {$/
+out	main.c	/^void out(Memory * mem) {$/
+parse	main.c	/^void parse(Memory * mem) {$/
+pop	main.c	/^void pop(Memory * mem) {$/
+prev	main.c	/^void prev(Memory * mem) {$/
+process	main.c	/^void process(Memory * mem) {$/
+push	main.c	/^void push(Memory * mem) {$/
+refresh_w_code	main.c	/^void refresh_w_code(Memory * mem) {$/
+refresh_w_memory	main.c	/^void refresh_w_memory(Memory * mem) {$/
+refresh_w_output	main.c	/^void refresh_w_output(Memory * mem) {$/
+repeat	main.c	/^char *repeat(char c, size_t count) {$/
+set	main.c	/^void set(char *code, Memory * in_mem) {$/

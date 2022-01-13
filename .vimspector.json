@@ -1,0 +1,34 @@
+{
+    "configurations": {
+        "Launch": {
+            "default": true,
+            "adapter": "CodeLLDB",
+            "filetypes": ["cpp", "c", "objc", "rust"], // optional
+            "configuration": {
+                "type": "lldb",
+                "request": "launch",
+                "program": "./bfCode",
+                "args": [
+                    "-cf",
+                    "functions/dup.bf"
+                ],
+                "cwd": ".",
+                "environment": [],
+                "console": "internalConsole",
+                "externalConsole": true,
+                "stopOnEntry": false,
+                "stopInEntry": false,
+                "MIMode": "lldb"
+            }
+        },
+        "Attach": {
+            "adapter": "vscode-cpptools",
+            "filetypes": ["cpp", "c", "objc", "rust"], // optional
+            "configuration": {
+                "request": "attach",
+                "program": "./bfCode",
+                "MIMode": "lldb"
+            }
+        }
+    }
+}
